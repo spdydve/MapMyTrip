@@ -403,7 +403,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-objc";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VERSIONING_SYSTEM = "";
 			};
@@ -439,7 +439,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-objc";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "";
@@ -531,6 +531,7 @@
 				63B84DCF19E455A9004A4152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63B84DD019E455A9004A4152 /* Build configuration list for PBXNativeTarget "MapMyTripTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +540,7 @@
 				63B84DD219E455A9004A4152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
